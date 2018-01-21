@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Барбершоп «Бородинский»"</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="../normolize.css">
+</head>
+
+<body>
+    <!-- шапка сайта -->
+    <header class="main-header">
+        <div class="container clearfix">
+            <!-- для центровки содержимого -->
+            <!-- главное меню -->
+            <nav class="main-navigation">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#info">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#news">Новости</a>
+                    </li>
+                    <li>
+                        <a href="price.html">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Форма для входа -->
+            <div class="user-block">
+                <a class="login" href="#">Вход</a>
+            </div>
+        </div>
+    </header>
+    <!-- Основной контент -->
+    <main class="container">
+        <div class="index-logo">
+            <!-- Логотип -->
+            <img src="img/logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
+        </div>
+        <!-- Блок - быстро, круто, дорого -->
+        <div class="features">
+            <div class="features-item">
+                <b class="features-name">Быстро</b>
+
+                <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+            </div>
+            <div class="features-item">
+                <b class="features-name">Круто</b>
+
+
+                <p>Забудьте, как вы стриглись раньше.
+                    <br> Мы сделаем из вас звезду футбола или кино!
+                    <br> Во всяком случае внешне.</p>
+            </div>
+            <div class="features-item">
+                <b class="features-name">Дорого</b>
+
+
+                <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+            </div>
+        </div>
+        <!-- Блок новостей и галерея -->
+        <div class="index-content">
+            <div class="index-content-left">
+                <h2 class="index-content-title">Новости</h2>
+                <ul class="news-prewiew">
+                    <li>
+                        <p>Нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки</p>
+                        <time datetime="2017-08-28">28 августа</time>
+                    </li>
+                    <li>
+                        <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды
+                        </p>
+                        <time datetime="2017-08-22">22 августа</time>
+                    </li>
+                </ul>
+                <a class="btn" href="#">Все новости</a>
+            </div>
+            <div class="index-content-right">
+                <h2 class="index-content-title">Фотогалерея</h2>
+                <div class="gallery">
+                    <figure class="gallery-content">
+                        <img src="img/foto-1.jpg" width="286" height="164" alt="">
+                    </figure>
+                    <button class="btn disabled gallery-prev">Назад</button>
+                    <button class="btn gallery-next">Вперед</button>
+                </div>
+            </div>
+        </div>
+        <!-- Контакты и запись -->
+        <div class="index-content">
+            <div class="index-content-left">
+                <h2 class="index-content-title">Контактная информация</h2>
+                <p>Барбершоп «Бородинский»
+                    <br> Адрес: г. Санкт-Петербург, Б.Конюшенная, д.19/8
+                    <br> Телефон: +7 (495) 666-02-66</p>
+                <p>
+                    Время работы:
+                    <br> Пн - пт: с 10:00 до 22:00
+                    <br> сб-вс: с 10:00 до 19:00 </p>
+                <a class="btn js-open-map" href="#">Как проехать</a>
+                <a class="btn" href="#">Обратная связь</a>
+            </div>
+            <div class="index-content-right">
+                <h2 class="index-content-title">Записаться</h2>
+                <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+                <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+                    <input type="text" name="date" value="" placeholder="Дата">
+                    <input type="text" name="date" value="" placeholder="Время">
+                    <input type="text" name="date" value="" placeholder="Ваше имя">
+                    <input type="tel" name="date" value="" placeholder="Телефон">
+                    <button class="btn" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <!-- Подвал -->
+    <footer class="main-footer">
+        <div class="container">
+            <!-- Контакты -->
+            <div class="footer-contacts">
+                <p>Барбершоп «Бородинский»
+                    <br> Адрес: г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8
+                    <br>
+                    <a class="find" href="#">Как нас найти?</a>
+                    <br>
+                    <p>Телефон: +7 (495) 666-02-66</p>
+            </div>
+            <!-- Кнопки социальных сетей -->
+            <div class="footer-social">
+                <p>Давайте дружить!
+                    <br>
+                    <a class="btn vk" href="#">Вконтакте</a>
+                    <a class="btn fb" href="#">Фейсбук</a>
+                    <a class="btn inst" href="#">Инстаграмм</a>
+            </div>
+            <!-- Копирайт -->
+            <div class="footer-copyright">
+                <p>Разработано:</p>
+                <a class="btn" href="https://Htmlacademy.ru">HtmlAcademy.ru</a>
+            </div>
+        </div>
+    </footer>
+    <!--Форма входа!-->
+    <div class="modal-content">
+        <button type="button" class="modal-content-close" title="Закрыть">Закрыть</button>
+        <h1>личный кабинет</h1>
+        <p>введите пожалуйста свой логин и пароль</p>
+        <form action = " https://echo.htmlacademy.ru "  method = " post ">
+            <input type="text" class="login-input" placeholder="логин" name="login">
+            <input type="password" class="password" name="password" placeholder="пароль">
+            <label class="login-checkbox">
+                <input type="checkbox" name="Запомните меня" checked>
+                <span class="checkbox-indicator"></span> Запомните меня
+            </label>
+            <a href="#">я забыл пароль</a>
+            <input type="submit" class="btn" name="войти" value="войти">
+        </form>
+
+    </div>
+    <div class="modal-content-map">
+        <button type="button" class="modal-content-close" title="Закрыть">Закрыть</button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123657!2d30.320894615623903!3d59.93879686904846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1516478292339" width="766" height="561" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </div>
+    <div class="modal-overlay"></div>
+    <script src="JS/JS.js"></script>
+</body>
+
+</html>
