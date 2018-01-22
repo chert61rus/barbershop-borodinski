@@ -239,6 +239,10 @@ time {
     border: none;
     outline: none;
     padding: 10px 33px;
+    color:  #ffffff;
+font-size: 14px;
+font-weight: 700;
+text-align: center;
 }
 .gallery-prev {
     position: absolute;
