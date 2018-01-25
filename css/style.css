@@ -9,11 +9,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+/*
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 .container {
     width: 940px;
     font-size: 14px;
@@ -35,6 +36,7 @@ body {
     background: #f8f3f0 url(../img/bg-block.jpg) repeat;
 }
 .main-header {
+    display: flex;
     margin-bottom: 60px;
     background-color: black;
     height: 72px;
@@ -170,6 +172,17 @@ a {
     font-weight: 700;
     text-align: center;
     margin-bottom: 0;
+}
+.gallery-content{
+    max-height: 190px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-content img{
+    max-width: 140px;
+    
+    
 }
 .index-content {
     margin-bottom: 35px;
