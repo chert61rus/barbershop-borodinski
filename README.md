@@ -1,12 +1,13 @@
-Barbershop-Borodinski
+<h1>Barbershop-Borodinski</h1><br>
 
-Разработчик: Евгения Налюшниченко
-Дизайн: HTML Academy
-Описание
+Разработчик: Евгения Налюшниченко<br>
+Дизайн: HTML Academy<br>
+Описание:<br>
 Сайт стильного, модного, молодёжного барбершопа. Сайт состоит из четырёх страниц (главная, прайс-лист, каталог интернет-магазина, страница товара), всплывающей (при клике на ссылку "вход") формы входа и интерактивной карты (при клике на кнопку "Как проехать" или "Как нас найти?"). 
+<br>
 
 
-Связь с разработчиком
-Git: https://github.com/chert61rus
-Почта: evgeniya_saratov@mail.ru
-VK: https://vk.com/chert61rus
+Связь с разработчиком<br>
+Git: https://github.com/chert61rus<br>
+Почта: evgeniya_saratov@mail.ru<br>
+VK: https://vk.com/chert61rus<br>
